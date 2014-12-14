@@ -5,7 +5,7 @@
 #   include vagrant_manager
 class vagrant_manager {
 
-  $appversion = '2.0.1'
+  $appversion = '2.1.2'
   package { 'VagrantManager':
     ensure   => 'installed',
     provider => 'pkgdmg',
