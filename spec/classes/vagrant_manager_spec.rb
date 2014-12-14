@@ -1,7 +1,7 @@
 require 'spec_helper'
 
 describe 'vagrant_manager' do
-  let(:appversion) { "2.0.1" }
+  let(:appversion) { "2.1.2" }
   it do
     should contain_package('VagrantManager').with({
       :provider => 'pkgdmg',
